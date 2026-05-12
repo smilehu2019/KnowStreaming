@@ -5,7 +5,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-      target: backend
     image: knowstreaming/manager:local
     container_name: knowstreaming-manager
     restart: always
@@ -32,8 +31,7 @@ services:
   knowstreaming-ui:
     build:
       context: .
-      dockerfile: Dockerfile
-      target: ui
+      dockerfile: Dockerfile.ui
     image: knowstreaming/ui:local
     container_name: knowstreaming-ui
     restart: always

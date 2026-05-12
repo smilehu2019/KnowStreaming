@@ -1,0 +1,8 @@
+FROM nginx:1.18
+
+LABEL description="Know Streaming - Kafka Management Platform - UI"
+
+RUN rm -rf /etc/nginx/conf.d/default.conf
+
+COPY km-rest/src/main/resources/templates /pub
+COPY docker/nginx/knowstreaming.conf /etc/nginx/conf.d/default.conf
