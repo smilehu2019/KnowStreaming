@@ -2,7 +2,7 @@
 
 通常情况下，您可以通过 [本地源码启动手册](https://github.com/didi/KnowStreaming/blob/master/docs/dev_guide/%E6%9C%AC%E5%9C%B0%E6%BA%90%E7%A0%81%E5%90%AF%E5%8A%A8%E6%89%8B%E5%86%8C.md) 来打包工程。如果您需要在本地独立启动或打包前端服务，请参考以下手册。
 
-在进行以下的步骤之前，首先确保您已经安装了 `node`。如已安装，可以通过在终端执行 `node -v` 来获取到 node 版本，项目推荐使用 `node v12` 版本运行（例如 `node v12.22.12`）。
+在进行以下的步骤之前，首先确保您已经安装了 `node`。如已安装，可以通过在终端执行 `node -v` 来获取到 node 版本，项目推荐使用 `node v16` 版本运行（例如 `node v16.18.6`）。
 
 另外，`windows` 用户请在 `git bash` 下运行下面的命令。
 

@@ -169,7 +169,7 @@ KnowStreaming/km-console/packages/config-manager-fe/node_modules
 
 2. 如果之前是通过 `mvn install` 打包 `km-console`，请到项目根目录（KnowStreaming）下重新输入该指令进行打包。观察打包过程有无报错。如有报错，请见步骤 4。
 
-3. 如果是通过本地独立构建前端工程的方式（指直接执行 `npm run build`），请进入 `KnowStreaming/km-console` 目录，执行下述步骤（注意：执行时请确保您在使用 `node v12` 版本）
+3. 如果是通过本地独立构建前端工程的方式（指直接执行 `npm run build`），请进入 `KnowStreaming/km-console` 目录，执行下述步骤（注意：执行时请确保您在使用 `node v16` 版本）
 
    a. 执行 `npm run i`。如有报错，请见步骤 4。
 
@@ -180,7 +180,7 @@ KnowStreaming/km-console/packages/config-manager-fe/node_modules
 ```
 操作系统: Mac
 命令行终端：bash
-Node 版本: v12.22.12
+Node 版本: v16.18.6
 复现步骤: 1. -> 2.
 错误截图:
 ```

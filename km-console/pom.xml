@@ -30,8 +30,8 @@
                             <goal>install-node-and-npm</goal>
                         </goals>
                         <configuration>
-                            <nodeVersion>v12.22.12</nodeVersion>
-                            <npmVersion>6.14.16</npmVersion>
+                            <nodeVersion>v16.18.6</nodeVersion>
+                            <npmVersion>8.19.4</npmVersion>
                             <nodeDownloadRoot>https://npmmirror.com/mirrors/node/</nodeDownloadRoot>
                             <npmDownloadRoot>https://npmmirror.com/mirrors/npm/</npmDownloadRoot>
                         </configuration>

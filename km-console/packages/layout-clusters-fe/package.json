@@ -80,7 +80,7 @@
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.1",
     "@types/crypto-js": "^4.1.0",
     "@types/lodash": "^4.14.171",
-    "@types/node": "^12.12.25",
+    "@types/node": "^16.18.6",
     "@types/pubsub-js": "^1.5.18",
     "pubsub-js": "^1.5.18",
     "@typescript-eslint/eslint-plugin": "4.13.0",
